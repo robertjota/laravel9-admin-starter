@@ -1,9 +1,9 @@
 
-# Tech-Admin | Laravel 8 + Bootstrap 4 
+# Laravel 9 Admin Starter 
 
-Tech-Admin is Admin Panel With Preset of Roles, Permissions, ACL, User Management, Profile Management.
+Based in Tech-Admin - Admin Panel
 
-
+Is Admin Panel With Preset of Roles, Permissions, ACL, User Management, Profile Management.
 
 
 ## Features
@@ -13,25 +13,26 @@ Tech-Admin is Admin Panel With Preset of Roles, Permissions, ACL, User Managemen
 - Role Management
 - Permissions Management
 - Access Control List (ACL)
-- Laravel 8 + Bootstrap 4
+- Laravel 9 + Bootstrap 4
+- vite
 
 
 ## Tech Stack
 
 **Client:** HTML, CSS, JavaScript, jQuery, VueJs, Bootstrap 4
 
-**Server:** PHP, Laravel 8
+**Server:** PHP 8.0, Laravel 9
 
 **DataBase:** MySql
 
 
 ## Installation
 
-Install Tech-Admin With Simple Steps
+Install With Simple Steps
 
 ```bash
-git clone https://github.com/TechTool-India/techtool-laravel-admin.git
-cd techtool-laravel-admin
+git clone https://github.com/robertjota/laravel9-admin-starter.git
+cd laravel9-admin-starter
 ```
 
 Install All Packages of laravel
@@ -41,7 +42,7 @@ composer install
 
 Install NPM Dependencies
 ```bash
-npm install && npm run dev
+npm install && npm run dev or npm run build (production)
 ```
 
 Create .env file
@@ -65,7 +66,7 @@ All Set ! now serve laravel app on local and open app in browser.
 Login With Admin
 ```bash
 Username - admin@admin.com
-Password - Admin@123#
+Password - password
 ```
 ## Screenshots
 
@@ -78,13 +79,4 @@ Password - Admin@123#
 ![App Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5w9yy33y0fspnnl68t0m.png)
 
 ![App Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/v5p71gck63r039mk6jix.png)
-
-## Feedback
-
-If you have any feedback, please reach out to us at techtoolindia@gmail.com
-
-
-## Support
-
-For support, email techtoolindia@gmail.com or join our facebook chanel https://www.facebook.com/techtoolindia.
 
